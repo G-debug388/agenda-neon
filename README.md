@@ -30,9 +30,11 @@ test/                         # testes de unidade e do fluxo completo do app
 ```
 
 ## Como rodar
+O repositório contém apenas os arquivos do código (`.dart`). Para gerar as pastas de plataforma (Android/Web), rode primeiro `flutter create .` dentro da pasta clonada:
 ```bash
+flutter create .
 flutter pub get
 flutter run            # Android (emulador)
 flutter run -d chrome  # navegador
-flutter test           # roda os 11 testes
+flutter test           # roda os 12 testes
 ```
