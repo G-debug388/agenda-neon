@@ -32,6 +32,7 @@ test/                         # testes de unidade e do fluxo completo do app
 ## Como rodar
 ```bash
 flutter pub get
-flutter run            # Android (emulador) ou: flutter run -d chrome
+flutter run            # Android (emulador)
+flutter run -d chrome  # navegador
 flutter test           # roda os 11 testes
 ```
